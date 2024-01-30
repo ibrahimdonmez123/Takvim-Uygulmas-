@@ -1,0 +1,82 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.add-event {
+	flex-basis: 40%;
+}
+
+.add-event form {
+	display: flex;
+	flex-direction: column;
+}
+
+.add-event label, .add-event input, .add-event textarea, .add-event select {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.add-event button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.event-list {
+	flex-basis: 55%;
+}
+
+.event-list ul {
+	list-style: none;
+	padding: 0;
+}
+
+.event-list li {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.event-list h3 {
+	margin-top: 0;
+}
+
+.event-list p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.event-list button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px
+}
